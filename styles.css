@@ -1,0 +1,22 @@
+#board {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .tile {
+    padding: 80px;
+    background-color: #ffb9a7;
+  }
+  .tile:hover {
+    background-color: #c96c54;
+    cursor: pointer;
+  }
+  .btn {
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  .btn:hover {
+    background-color: #ffb9a7;
+  }

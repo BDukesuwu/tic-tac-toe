@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+  <section>
+    <h1></h1> <!-- this will be the winner / tie message but its empty for now -->
+  </section>
+  
+  <section>
+    <p> It's Player <span class = "player-turn"> X </span> 's turn!</p> <!--show which player is next-->
+  </section>
+
+  <div id = "board">  <!-- game board-->
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+    <div class="tile"></div>
+  </div>
+
+  <section class = "result">
+    <!-- this display wil be set to hidden until the end of the game to say the result of the game-->
+  </section>
+
+  <section>
+    <button class="resetBtn" onClick="window.location.reload();">> Reset Game </button> <!-- click to reset the game at any time-->
+  </section>
+
+</body>
+</html>
