@@ -11,16 +11,6 @@
 -Provide a Reset Game button that will clear the contents of the board.
 
 
-if the board is stored as numbers:
-    1 2 3
-    4 5 6
-    7 8 9
-the combos for a win would be:
-    123  147  159
-    456  258  357
-    789  369 and vice-versa (example, 321)
-
-
 Pseudocode
 
 1) Define required constants -done
